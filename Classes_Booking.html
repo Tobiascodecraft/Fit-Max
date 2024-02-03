@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Fit Max</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="https://kit.fontawesome.com/cce6747441.js" crossorigin="anonymous"></script>
+    
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="7style.css">
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <span class="d-flex align-items-center">
+              <p id="hd_f">F</p>it Max <img id="Nav_img" src="Nav_img1.png">
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+               <button  id="upnav_btn"><a id="upnav_btn" href="index.html">Home</a></button>
+              </li>
+              <li class="nav-item">
+                <button id="upnav_btn"> <a id="login_btn" href="Classes.html">Classes</a></button>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button id="nav_btn1" class="btn btn-dark" type="button"><a id="login_btn" href="Login.html">Login</a></button>
+              <button  class="btn btn-dark" type="button"><a id="Membership_nav" href="Membership.html">Membership</a></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-header">
+        <img id="header-image" src="booking-course.png">
+        <p class="centered">Class Booking</p>
+      </div>
+
+      <section id="section-book-classes">
+        <div class="container-main">
+      
+          <div class="container-inner-booking">
+            <p id="booking-header">We are here to help you! <br>
+              To create your dream body. 
+            </p>
+            <p id="booking-text">At Fit Max, we are dedicated to helping<br>
+               you achieve the body of your dreams. <br>
+              Our expert trainers and nutritionists will work <br>
+              with you to create a personalized fitness and <br>
+              nutrition plan that helps you reach your  <br>
+              specific goals.</p>
+      
+              <div class="container-booking-card">
+                <div class="card-classes-booking">
+                  <p id="card-booking-header">New York</p>
+                  <p class="card-classes-booking-underline">__________</p>
+                  <p class="card-booking-text">Sixth Avenue</p>
+      
+                  <br>
+
+                  <p id="card-booking-header">Information</p>
+                  <p class="card-classes-booking-underline">__________</p>
+                  <p class="card-booking-text">+80 1234 567 <br>
+                    fitmax@gmail.com
+                  </p>
+               </div> 
+      
+                <div class="card-classes-booking">
+                  <p id="card-booking-header">Follow us on</p>
+                  <p class="card-classes-booking-underline1">__________</p>
+                
+                  <div class="icon-container">
+                    <i class="fa-brands fa-facebook-f icon-border"></i>
+                    <i class="fa-brands fa-twitter icon-border"></i>
+                    <i class="fa-brands fa-instagram icon-border"></i>
+                    <i class="fa-brands fa-pinterest-p icon-border"></i>
+                  </div>
+                </div>
+              </div>
+      
+          </div>
+      
+      
+          <div class="container-inner-booking-forum">
+            <p id="forum-header">Leave us some info </p>
+            <p id="forum-geader-underline">_______________</p>
+            <input class="input-forum-booking" placeholder="Surname*"></input>
+            <input class="input-forum-booking" placeholder="Name*"></input>
+            <input class="input-forum-booking" placeholder="Email Address">
+            <div class="dropdown">
+              <button class="input-forum-booking dropdown-toggle" id="stickyItem" data-bs-toggle="dropdown">
+                Select class
+              </button>
+              <ul class="dropdown-menu dropdown" id="dropdown">
+                <li><a class="dropdown-item" onclick="selectItem('Meditation')">Meditation</a></li>
+                <li><a class="dropdown-item" onclick="selectItem('Cycling')">Cycling</a></li>
+                <li><a class="dropdown-item" onclick="selectItem('Boxing')">Boxing</a></li>
+      
+                <li><a class="dropdown-item" onclick="selectItem('Karate')">Karate</a></li>
+                <li><a class="dropdown-item" onclick="selectItem('Powerlifting')">Powerlifting</a></li>
+                <li><a class="dropdown-item" onclick="selectItem('Running')">Running</a></li>
+              </ul>
+            </div>
+            </input>
+            <input class="input-forum-booking-comment" placeholder="Comment"></input>
+      
+            <button id="button-forum-classes">Submit now</button>
+          </div>
+      
+        </div>
+      </section>
+
+
+      <script src="Classes.js"></script>
+</body>
+</html>

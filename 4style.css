@@ -1,0 +1,390 @@
+#login_btn{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+  }
+
+  #nav_btn{
+    border: 1px solid white;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: white;
+}
+
+#nav_a{
+text-decoration: none;
+color: white;
+}
+
+#nav_a:hover{
+  color: black;
+}
+
+#upnav_btn{
+  margin-top: 2%;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.navbar{
+  letter-spacing: 2px;
+}
+
+#DOWN{
+  margin-top: -5%;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#Membership_nav{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#login_btn{
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+#Nav_img{
+    margin-left: 2%;
+    width: 60px;
+}
+
+#Nav_img1{
+  width: 60px;
+  margin-left: -5%;
+  
+}
+
+#hd_f{
+color: #3498db;
+font-size: 30px;
+font-weight: 800;
+margin-top: 10%;
+}
+
+#hd_f1::first-letter{
+    color: #3498db;
+    font-size: 90px;
+    font-weight: 800;
+    }
+
+#hd_f1{
+    font-size: 90px;
+    font-weight: 800;
+    margin-left: 5%;
+ }
+
+ #hd_bottom{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 6%;
+    margin-top: 5%;
+ }
+
+ #Gym_item{
+  width: 40%;
+
+  animation: animate_bottom;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  cursor: pointer;
+ }
+
+.nav-item{
+    margin-left: 10%;
+}
+
+#nav_btn:hover{
+transition: 0.3s;
+background-color: white;
+color: black;
+font-weight: 600;
+}
+
+#sectionmain{
+    /* From https://css.glass */
+    background-image: url();
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+
+    margin-top: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#sectionshop{
+    /* From https://css.glass */
+    background-image: url();
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+
+    margin-top: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 5%;
+}
+
+.card1{
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+#register_btn{
+    padding-top: 3%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px;
+    height: 70px;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: white;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+#register_btn:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+@keyframes animate_bottom {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.js-products-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+@media (max-width:840px) {
+  .container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.js-products-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container{
+  margin-top: 22%;
+
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#hd_f1::first-letter{
+  color: #3498db;
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  }
+
+#hd_f1{
+  font-size: 45px;
+  font-weight: 800;
+  margin-left: 5%;
+  text-align: center;
+}
+
+#hd_bottom{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#register_btn{
+  padding-top: 7%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  width: 150px;
+  height: 70px;
+  margin-left: 25%;
+  margin-top: 10%;
+  background-color: white;
+  border: 2px solid black;
+  transition: 0.3s;
+}
+
+#Gym_item{
+  width: 40%;
+  margin-top: 5%;
+
+  animation: animate_bottom;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  cursor: pointer;
+ }
+}
+
+
+
+
+
+
+
+.card {
+    margin-top: 5%;
+
+    width: 250px;
+    height: 404px;
+    padding: .8em;
+    background: white;
+    position: relative;
+    overflow: visible;
+    box-shadow:0 1px 3px #1982c4, 0 1px 2px #1982c4; ;
+   }
+   
+   .card-img {
+    background-color: #f5f5f5;
+    height: 200px;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+   
+   .card-info {
+    padding-top: 10%;
+   }
+   
+   svg {
+    width: 20px;
+    height: 20px;
+   }
+   
+   .card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+   }
+   
+   /*Text*/
+   .text-title {
+    font-weight: 650;
+    font-size: 1.3em;
+    line-height: 1.5;
+    text-align: center;
+   }
+   
+   .text-body {
+    font-size: 1em;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-align: center;
+   }
+   
+   /*Button*/
+   .card-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .5s ease-in-out;
+   }
+   
+   /*Hover*/
+   .card-img:hover {
+    transform: translateY(-5%);
+    box-shadow: #1982c4;
+   }
+   
+   .card-button:hover {
+    border: 1px solid #1982c4;
+    background-color: #1982c4;
+   }
+
+   
+   .floating-item {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  
